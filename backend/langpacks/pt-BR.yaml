@@ -1,0 +1,40 @@
+code: pt-BR
+name: Brazilian Portuguese
+native_name: Português (Brasil)
+market: international
+script: Latin
+script_ranges: ["0041-024F"]
+direction: ltr
+chars_per_second: 14.5
+asr_code: pt
+register_guide: |
+  Brazilian (not European) Portuguese, as in Brazilian novelas. Use você between peers; address the
+  mother-in-law respectfully as "a senhora". Kinship: mother -> mãe, elder brother -> his name.
+  Money: lakh/crore -> milhões de rúpias.
+cultural_notes: |
+  Novela audiences love high melodrama - keep the intensity. Replace Hindi idioms with Brazilian ones.
+numbers:
+  um: 1
+  uma: 1
+  dois: 2
+  duas: 2
+  três: 3
+  quatro: 4
+  cinco: 5
+  seis: 6
+  sete: 7
+  oito: 8
+  nove: 9
+  dez: 10
+  vinte: 20
+  trinta: 30
+  cinquenta: 50
+  cem: 100
+  mil: 1000
+  milhão: 1000000
+  milhões: 1000000
+voices:
+  edge:
+    - {id: pt-BR-ThalitaMultilingualNeural, gender: female, age: young}
+    - {id: pt-BR-FranciscaNeural, gender: female, age: adult}
+    - {id: pt-BR-AntonioNeural, gender: male, age: adult}

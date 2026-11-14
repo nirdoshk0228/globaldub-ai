@@ -1,0 +1,39 @@
+code: bn-IN
+name: Bengali
+native_name: বাংলা
+market: india
+script: Bengali
+script_ranges: ["0980-09FF"]
+direction: ltr
+chars_per_second: 12.5
+asr_code: bn
+register_guide: |
+  Kolkata colloquial Bengali (চলিত ভাষা). Elders get আপনি, spouses and younger people তুমি.
+  Kinship: mother / mother-in-law -> মা, elder brother -> দাদা. Keep lakh/crore (লাখ, কোটি).
+cultural_notes: |
+  Use Bengali idioms for disgrace and honour (মান-সম্মান ধুলোয় মিশিয়ে দিল is natural here).
+numbers:
+  এক: 1
+  দুই: 2
+  দু: 2
+  তিন: 3
+  চার: 4
+  পাঁচ: 5
+  ছয়: 6
+  সাত: 7
+  আট: 8
+  নয়: 9
+  দশ: 10
+  কুড়ি: 20
+  বিশ: 20
+  ত্রিশ: 30
+  চল্লিশ: 40
+  পঞ্চাশ: 50
+  একশো: 100
+  "হাজার*": 1000
+  "লাখ*": 100000
+  "কোটি*": 10000000
+voices:
+  edge:
+    - {id: bn-IN-TanishaaNeural, gender: female, age: adult}
+    - {id: bn-IN-BashkarNeural, gender: male, age: adult}

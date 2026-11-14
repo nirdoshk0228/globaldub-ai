@@ -1,0 +1,45 @@
+code: ta-IN
+name: Tamil
+native_name: தமிழ்
+market: india
+script: Tamil
+script_ranges: ["0B80-0BFF"]
+direction: ltr
+chars_per_second: 10.1   # measured from 54 voiced lines
+asr_code: ta
+register_guide: |
+  Colloquial spoken Tamil (பேச்சுத் தமிழ்) as heard in Tamil TV serials, not formal written Tamil.
+  Address elders and in-laws with respect forms (நீங்க). Kinship: mother-in-law -> அத்தை or அம்மா,
+  elder brother -> அண்ணா / அண்ணே, son/daughter addressed by parent -> கண்ணு / மா. Keep lakh/crore
+  (லட்சம், கோடி). Tamil sentences run long: prefer short words to stay inside the time slot.
+cultural_notes: |
+  Family-honour drama translates well; use Tamil idioms of the same weight (e.g. மானம் போச்சு for
+  disgrace). Avoid Hindi loanwords that Tamil viewers dislike.
+numbers:
+  ஒன்று: 1
+  ஒரு: 1
+  இரண்டு: 2
+  ரெண்டு: 2
+  மூன்று: 3
+  மூணு: 3
+  நான்கு: 4
+  நாலு: 4
+  ஐந்து: 5
+  அஞ்சு: 5
+  ஆறு: 6
+  ஏழு: 7
+  எட்டு: 8
+  ஒன்பது: 9
+  பத்து: 10
+  இருபது: 20
+  முப்பது: 30
+  நாற்பது: 40
+  ஐம்பது: 50
+  நூறு: 100
+  ஆயிரம்: 1000
+  "லட்ச*": 100000
+  "கோடி*": 10000000
+voices:
+  edge:
+    - {id: ta-IN-PallaviNeural, gender: female, age: adult}
+    - {id: ta-IN-ValluvarNeural, gender: male, age: adult}

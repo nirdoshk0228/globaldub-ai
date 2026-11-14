@@ -1,0 +1,41 @@
+code: ar-SA
+name: Arabic
+native_name: العربية
+market: international
+script: Arabic
+script_ranges: ["0600-06FF", "0750-077F"]
+direction: rtl
+chars_per_second: 12.0
+asr_code: ar
+register_guide: |
+  Simple Modern Standard Arabic as used in pan-Arab dubbed drama, understood across the Gulf.
+  Verbs and second-person pronouns must agree with the gender of the person addressed (أنتَ / أنتِ):
+  check who is being spoken to. Kinship: mother -> أمي / يا أمي, elder brother -> his name or أخي.
+  Money: convert lakh/crore into millions of rupees (مليون روبية).
+cultural_notes: |
+  Keep family-honour drama (الشرف، الكرامة) - it resonates strongly. Soften any reference to alcohol
+  or explicit romance. "हे भगवान" -> يا إلهي.
+numbers:
+  واحد: 1
+  اثنان: 2
+  اثنين: 2
+  ثلاث: 3
+  ثلاثة: 3
+  أربع: 4
+  خمس: 5
+  خمسة: 5
+  عشر: 10
+  عشرة: 10
+  عشرين: 20
+  عشرون: 20
+  خمسين: 50
+  مائة: 100
+  مئة: 100
+  "ألف*": 1000
+  "مليون*": 1000000
+  "ملايين*": 1000000
+  مليونين: 2000000
+voices:
+  edge:
+    - {id: ar-SA-ZariyahNeural, gender: female, age: adult}
+    - {id: ar-SA-HamedNeural, gender: male, age: adult}

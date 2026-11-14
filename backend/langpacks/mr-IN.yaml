@@ -1,0 +1,40 @@
+code: mr-IN
+name: Marathi
+native_name: मराठी
+market: india
+script: Devanagari
+script_ranges: ["0900-097F"]
+shares_source_script: true      # same script as Hindi, so the untranslated check uses word overlap
+direction: ltr
+chars_per_second: 12.5
+asr_code: mr
+register_guide: |
+  Natural spoken Marathi. Elders get तुम्ही / आपण. Kinship: mother -> आई, mother-in-law -> आई or
+  सासूबाई, elder brother -> दादा. The most common failure is Hindi words and Hindi grammar leaking
+  into Marathi (है, नहीं, क्या, मैं): never leave Hindi verb endings. Keep lakh/crore (लाख, कोटी).
+cultural_notes: |
+  Use Marathi idioms of equal weight (अब्रू धुळीला मिळवली for disgrace).
+numbers:
+  एक: 1
+  दोन: 2
+  तीन: 3
+  चार: 4
+  पाच: 5
+  सहा: 6
+  सात: 7
+  आठ: 8
+  नऊ: 9
+  दहा: 10
+  वीस: 20
+  तीस: 30
+  चाळीस: 40
+  पन्नास: 50
+  शंभर: 100
+  हजार: 1000
+  लाख: 100000
+  "कोटी*": 10000000
+hindi_leak_words: [है, हैं, नहीं, क्या, मैं, था, थी, रहा, रही, आप, लेकिन]
+voices:
+  edge:
+    - {id: mr-IN-AarohiNeural, gender: female, age: adult}
+    - {id: mr-IN-ManoharNeural, gender: male, age: adult}

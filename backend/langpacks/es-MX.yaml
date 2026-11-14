@@ -1,0 +1,39 @@
+code: es-MX
+name: Mexican Spanish
+native_name: Español (México)
+market: international
+script: Latin
+script_ranges: ["0041-024F"]
+direction: ltr
+chars_per_second: 14.5
+asr_code: es
+register_guide: |
+  Mexican Spanish as in telenovelas. Use usted for the mother-in-law and elders, tú between spouses
+  and siblings; never vosotros. Kinship: mother -> mamá, elder brother -> his name.
+  Money: lakh/crore -> millones de rupias.
+cultural_notes: |
+  Telenovela audiences expect intense, theatrical delivery. Use Mexican idioms of equal weight.
+numbers:
+  un: 1
+  uno: 1
+  una: 1
+  dos: 2
+  tres: 3
+  cuatro: 4
+  cinco: 5
+  seis: 6
+  siete: 7
+  ocho: 8
+  nueve: 9
+  diez: 10
+  veinte: 20
+  treinta: 30
+  cincuenta: 50
+  cien: 100
+  mil: 1000
+  millón: 1000000
+  millones: 1000000
+voices:
+  edge:
+    - {id: es-MX-DaliaNeural, gender: female, age: adult}
+    - {id: es-MX-JorgeNeural, gender: male, age: adult}

@@ -1,0 +1,148 @@
+{
+  "generated_at": 1794610050,
+  "mode": "judge",
+  "results": [
+    {
+      "lang": "en-US",
+      "judge": true,
+      "llm": "gemini",
+      "judge_models": {
+        "gemini-flash-lite-latest": 5
+      },
+      "timings": "voiced",
+      "clean_lines": 27,
+      "false_positive_lines": 2,
+      "false_positive_rate": 0.074,
+      "planted_total": 120,
+      "detected_total": 119,
+      "recall_total": 0.992,
+      "recall_excluding_semantic": 0.991,
+      "by_type": {
+        "omission_full": {
+          "planted": 25,
+          "detected": 25,
+          "diagnosed": 25,
+          "recall": 1.0
+        },
+        "omission_partial": {
+          "planted": 25,
+          "detected": 24,
+          "diagnosed": 24,
+          "recall": 0.96
+        },
+        "name_swap": {
+          "planted": 8,
+          "detected": 8,
+          "diagnosed": 8,
+          "recall": 1.0
+        },
+        "number_change": {
+          "planted": 5,
+          "detected": 5,
+          "diagnosed": 5,
+          "recall": 1.0
+        },
+        "untranslated": {
+          "planted": 25,
+          "detected": 25,
+          "diagnosed": 25,
+          "recall": 1.0
+        },
+        "literal_idiom": {
+          "planted": 2,
+          "detected": 2,
+          "diagnosed": 2,
+          "recall": 1.0
+        },
+        "duration_bloat": {
+          "planted": 25,
+          "detected": 25,
+          "diagnosed": 25,
+          "recall": 1.0
+        },
+        "meaning_flip": {
+          "planted": 5,
+          "detected": 5,
+          "diagnosed": 5,
+          "recall": 1.0
+        }
+      },
+      "misses": [
+        {
+          "line": "s006",
+          "type": "omission_partial",
+          "text": "Of course you'll take your wife's side."
+        }
+      ],
+      "timestamp": 1794610008
+    },
+    {
+      "lang": "ta-IN",
+      "judge": true,
+      "llm": "gemini",
+      "judge_models": {
+        "gemini-flash-lite-latest": 6
+      },
+      "timings": "voiced",
+      "clean_lines": 27,
+      "false_positive_lines": 0,
+      "false_positive_rate": 0.0,
+      "planted_total": 122,
+      "detected_total": 122,
+      "recall_total": 1.0,
+      "recall_excluding_semantic": 1.0,
+      "by_type": {
+        "omission_full": {
+          "planted": 27,
+          "detected": 27,
+          "diagnosed": 27,
+          "recall": 1.0
+        },
+        "omission_partial": {
+          "planted": 25,
+          "detected": 25,
+          "diagnosed": 25,
+          "recall": 1.0
+        },
+        "name_swap": {
+          "planted": 8,
+          "detected": 8,
+          "diagnosed": 8,
+          "recall": 1.0
+        },
+        "number_change": {
+          "planted": 5,
+          "detected": 5,
+          "diagnosed": 5,
+          "recall": 1.0
+        },
+        "untranslated": {
+          "planted": 27,
+          "detected": 27,
+          "diagnosed": 27,
+          "recall": 1.0
+        },
+        "literal_idiom": {
+          "planted": 3,
+          "detected": 3,
+          "diagnosed": 3,
+          "recall": 1.0
+        },
+        "duration_bloat": {
+          "planted": 27,
+          "detected": 27,
+          "diagnosed": 27,
+          "recall": 1.0
+        },
+        "meaning_flip": {
+          "planted": 0,
+          "detected": 0,
+          "diagnosed": 0,
+          "recall": null
+        }
+      },
+      "misses": [],
+      "timestamp": 1794610050
+    }
+  ]
+}

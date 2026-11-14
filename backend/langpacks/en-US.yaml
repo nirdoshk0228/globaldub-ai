@@ -1,0 +1,56 @@
+code: en-US
+name: US English
+native_name: English (US)
+market: international
+script: Latin
+script_ranges: ["0041-024F"]
+direction: ltr
+chars_per_second: 12.2   # measured from 27 voiced lines
+asr_code: en
+register_guide: |
+  Natural spoken American English with contractions. Keep the story set in India: keep character
+  names and places, do not invent American names. Kinship terms: माँ/माँजी -> "Mom"; elder brother
+  (भैया/भाई) -> use his first name; बेटा said by a parent -> "my dear" / "sweetheart" or drop it.
+  Money: convert lakh/crore into millions ("50 lakh" -> "5 million rupees"). Replace Hindi idioms
+  with American equivalents of the same intensity, never word-for-word.
+cultural_notes: |
+  US audiences find melodrama believable when lines are short and punchy. Avoid stiff, formal
+  phrasing ("Kindly", "do the needful"). Religious exclamations: "हे भगवान" -> "Oh my God".
+numbers:
+  one: 1
+  two: 2
+  three: 3
+  four: 4
+  five: 5
+  six: 6
+  seven: 7
+  eight: 8
+  nine: 9
+  ten: 10
+  eleven: 11
+  twelve: 12
+  fifteen: 15
+  twenty: 20
+  thirty: 30
+  forty: 40
+  fifty: 50
+  sixty: 60
+  seventy: 70
+  eighty: 80
+  ninety: 90
+  hundred: 100
+  thousand: 1000
+  lakh: 100000
+  million: 1000000
+  crore: 10000000
+  billion: 1000000000
+voices:
+  edge:
+    - {id: en-US-AvaNeural, gender: female, age: young}
+    - {id: en-US-EmmaNeural, gender: female, age: adult}
+    - {id: en-US-JennyNeural, gender: female, age: adult}
+    - {id: en-US-MichelleNeural, gender: female, age: senior}
+    - {id: en-US-BrianNeural, gender: male, age: young}
+    - {id: en-US-AndrewNeural, gender: male, age: adult}
+    - {id: en-US-GuyNeural, gender: male, age: adult}
+    - {id: en-US-ChristopherNeural, gender: male, age: senior}

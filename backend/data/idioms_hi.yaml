@@ -1,0 +1,50 @@
+# Hindi idioms whose word-for-word translation is a classic dubbing error.
+# `pattern` is matched against the Hindi source line; `literal_markers` are English words that betray
+# a literal rendering. For non-English targets the check runs on the English back-translation.
+- pattern: "मिट्टी में मिला"
+  meaning: "disgraced / ruined someone's honour"
+  literal_markers: [soil, dirt, mud, dust, earth]
+  allowed: ["through the mud", "name is mud", "bite the dust"]
+- pattern: "नाक कट"
+  meaning: "brought shame on the family"
+  literal_markers: [nose]
+  allowed: ["cut off your nose to spite your face"]
+- pattern: "हाथ धो"
+  meaning: "relentlessly going after someone"
+  literal_markers: [wash, washing, washed]
+- pattern: "आँखें चुरा|नज़रें चुरा|नजरें चुरा|आंखें चुरा"
+  meaning: "avoiding eye contact out of guilt"
+  literal_markers: [steal, stealing, stole]
+- pattern: "आँखों पर पट्टी|आंखों पर पट्टी"
+  meaning: "was blind to the truth"
+  literal_markers: [bandage, blindfold, cloth, strip, tied]
+- pattern: "पानी पानी"
+  meaning: "deeply embarrassed"
+  literal_markers: [water]
+- pattern: "आग बबूला"
+  meaning: "furious"
+  literal_markers: [bubble, foam]
+- pattern: "दाल में कुछ काला"
+  meaning: "something is fishy"
+  literal_markers: [lentil, lentils, dal, black]
+- pattern: "ईद का चाँद|ईद का चांद"
+  meaning: "rarely seen"
+  literal_markers: [moon, eid]
+- pattern: "ऊँट के मुँह में जीरा|ऊंट के मुंह में जीरा"
+  meaning: "far too little"
+  literal_markers: [camel, cumin]
+- pattern: "अपने मुँह मियाँ मिट्ठू|अपने मुंह मियां मिट्ठू"
+  meaning: "blowing one's own trumpet"
+  literal_markers: [parrot, mouth]
+- pattern: "सिर पर चढ़ा"
+  meaning: "spoiled someone"
+  literal_markers: [head, climb, climbed]
+- pattern: "कलेजे का टुकड़ा"
+  meaning: "beloved child"
+  literal_markers: [liver, piece of my heart]
+- pattern: "छाती पर मूँग दल|छाती पर मूंग दल"
+  meaning: "deliberately tormenting someone"
+  literal_markers: [chest, lentil, grind]
+- pattern: "घी के दीये जला"
+  meaning: "celebrating"
+  literal_markers: [ghee, lamps]

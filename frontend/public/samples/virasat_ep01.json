@@ -1,0 +1,287 @@
+{
+  "title": "Virasat - Episode 1: The Missing Papers",
+  "source_lang": "hi-IN",
+  "synopsis": "Original micro-drama written for this project. In a Jaipur joint family, the land papers worth 50 lakh vanish from the safe. Savitri blames her daughter-in-law Meera; Meera exposes Vikram, the elder son, who is secretly in debt. Cliffhanger: Meera saw someone else that night too.",
+  "characters": [
+    {
+      "name": "Savitri",
+      "source_aliases": [
+        "सावित्री"
+      ],
+      "gender": "female",
+      "age": "senior",
+      "persona": "Proud, sharp-tongued matriarch; fiercely protective of family honour."
+    },
+    {
+      "name": "Meera",
+      "source_aliases": [
+        "मीरा"
+      ],
+      "gender": "female",
+      "age": "young",
+      "persona": "Calm, observant daughter-in-law; quiet strength, never raises her voice."
+    },
+    {
+      "name": "Arjun",
+      "source_aliases": [
+        "अर्जुन"
+      ],
+      "gender": "male",
+      "age": "adult",
+      "persona": "Meera's husband; peacemaker torn between mother and wife."
+    },
+    {
+      "name": "Vikram",
+      "source_aliases": [
+        "विक्रम"
+      ],
+      "gender": "male",
+      "age": "adult",
+      "persona": "Arjun's elder brother; charming on the surface, desperate underneath."
+    }
+  ],
+  "glossary": [
+    {
+      "source": "माँजी",
+      "target": {
+        "en-US": "Mom",
+        "pt-BR": "a senhora",
+        "es-MX": "señora",
+        "ta-IN": "அத்தை",
+        "te-IN": "అత్తయ్య",
+        "bn-IN": "মা",
+        "mr-IN": "आई",
+        "ar-SA": "يا أمي"
+      },
+      "note": "Daughter-in-law addressing mother-in-law respectfully; never transliterate 'maaji'"
+    },
+    {
+      "source": "भैया",
+      "target": {
+        "ta-IN": "அண்ணா",
+        "te-IN": "అన్నయ్య",
+        "bn-IN": "দাদা",
+        "mr-IN": "दादा"
+      },
+      "note": "Elder brother; Indian languages use their own word, Western languages use his name"
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "Savitri",
+      "emotion": "angry",
+      "text": "मीरा! तिजोरी से ज़मीन के कागज़ कहाँ गए?",
+      "reference": {
+        "en-US": "Meera! Where are the land papers from the safe?"
+      }
+    },
+    {
+      "speaker": "Meera",
+      "emotion": "shocked",
+      "text": "माँजी, मुझे नहीं पता… मैंने तो तिजोरी को हाथ भी नहीं लगाया।",
+      "reference": {
+        "en-US": "Mom, I don't know... I haven't even touched the safe."
+      }
+    },
+    {
+      "speaker": "Savitri",
+      "emotion": "furious",
+      "text": "झूठ मत बोलो! पचास लाख की ज़मीन है वो, पचास लाख!",
+      "reference": {
+        "en-US": "Don't lie to me! That land is worth 5 million rupees. 5 million!"
+      }
+    },
+    {
+      "speaker": "Meera",
+      "emotion": "sad",
+      "text": "आपको लगता है मैं ऐसा करूँगी? इस घर को मैंने अपना माना है।",
+      "reference": {
+        "en-US": "You really think I'd do that? I've treated this house as my own."
+      }
+    },
+    {
+      "speaker": "Arjun",
+      "emotion": "worried",
+      "text": "माँ, शांत हो जाओ। पहले पूरी बात तो सुन लो।",
+      "reference": {
+        "en-US": "Mom, calm down. At least hear the whole story first."
+      }
+    },
+    {
+      "speaker": "Savitri",
+      "emotion": "angry",
+      "text": "तू तो हमेशा अपनी बीवी का ही पक्ष लेगा!",
+      "reference": {
+        "en-US": "Of course you'll take your wife's side. You always do!"
+      }
+    },
+    {
+      "speaker": "Savitri",
+      "emotion": "furious",
+      "text": "इस लड़की ने हमारी इज़्ज़त मिट्टी में मिला दी!",
+      "reference": {
+        "en-US": "This girl has dragged our family's name through the mud!"
+      }
+    },
+    {
+      "speaker": "Meera",
+      "emotion": "tender",
+      "text": "मैंने तीन साल इस परिवार की सेवा की है, माँजी।",
+      "reference": {
+        "en-US": "I've devoted three years to this family, Mom."
+      }
+    },
+    {
+      "speaker": "Vikram",
+      "emotion": "sarcastic",
+      "text": "वाह! घर में तो पूरा तमाशा चल रहा है।",
+      "reference": {
+        "en-US": "Wow! Quite a show going on in here."
+      }
+    },
+    {
+      "speaker": "Arjun",
+      "emotion": "neutral",
+      "text": "भैया, आप कब आए?",
+      "reference": {
+        "en-US": "Vikram, when did you get here?"
+      }
+    },
+    {
+      "speaker": "Vikram",
+      "emotion": "neutral",
+      "text": "बस अभी। माँ, क्या हुआ? किसके पीछे हाथ धोकर पड़ी हो?",
+      "reference": {
+        "en-US": "Just now. Mom, what happened? Who are you going after this time?"
+      }
+    },
+    {
+      "speaker": "Savitri",
+      "emotion": "angry",
+      "text": "ज़मीन के कागज़ गायब हैं, विक्रम। और ये कहती है इसे कुछ नहीं पता।",
+      "reference": {
+        "en-US": "The land papers are gone, Vikram. And she claims she knows nothing."
+      }
+    },
+    {
+      "speaker": "Vikram",
+      "emotion": "nervous",
+      "text": "अरे… कागज़? वो… शायद बैंक के लॉकर में होंगे।",
+      "reference": {
+        "en-US": "Oh... the papers? They're... probably in the bank locker."
+      }
+    },
+    {
+      "speaker": "Meera",
+      "emotion": "suspicious",
+      "text": "बैंक का लॉकर तो पिछले महीने बंद हो गया था, विक्रम भैया।",
+      "reference": {
+        "en-US": "But the bank locker was closed last month, Vikram."
+      }
+    },
+    {
+      "speaker": "Arjun",
+      "emotion": "shocked",
+      "text": "भैया… आप नज़रें क्यों चुरा रहे हैं?",
+      "reference": {
+        "en-US": "Vikram... why won't you look at me?"
+      }
+    },
+    {
+      "speaker": "Vikram",
+      "emotion": "defensive",
+      "text": "तुम लोग मुझ पर शक कर रहे हो? अपने ही भाई पर?",
+      "reference": {
+        "en-US": "You're suspecting me? Your own brother?"
+      }
+    },
+    {
+      "speaker": "Meera",
+      "emotion": "firm",
+      "text": "शक नहीं, सवाल है। कल रात दो बजे आप स्टडी रूम में क्या कर रहे थे?",
+      "reference": {
+        "en-US": "Not suspicion. A question. What were you doing in the study at 2 a.m. last night?"
+      }
+    },
+    {
+      "speaker": "Savitri",
+      "emotion": "shocked",
+      "text": "विक्रम… क्या ये सच है?",
+      "reference": {
+        "en-US": "Vikram... is this true?"
+      }
+    },
+    {
+      "speaker": "Vikram",
+      "emotion": "broken",
+      "text": "माँ, मुझ पर बीस लाख का कर्ज़ है। मेरे पास और कोई रास्ता नहीं था।",
+      "reference": {
+        "en-US": "Mom, I owe 2 million rupees. I had no other way out."
+      }
+    },
+    {
+      "speaker": "Savitri",
+      "emotion": "broken",
+      "text": "हे भगवान… मेरा अपना बेटा।",
+      "reference": {
+        "en-US": "Oh my God... my own son."
+      }
+    },
+    {
+      "speaker": "Arjun",
+      "emotion": "angry",
+      "text": "आपने माँ का भरोसा तोड़ा, और इल्ज़ाम मीरा पर आने दिया!",
+      "reference": {
+        "en-US": "You broke Mom's trust and let Meera take the blame!"
+      }
+    },
+    {
+      "speaker": "Savitri",
+      "emotion": "tender",
+      "text": "मीरा, बेटा… मुझे माफ़ कर दे। मेरी आँखों पर पट्टी बँधी थी।",
+      "reference": {
+        "en-US": "Meera, my dear... forgive me. I was completely blind."
+      }
+    },
+    {
+      "speaker": "Meera",
+      "emotion": "tender",
+      "text": "माफ़ी की ज़रूरत नहीं, माँजी। बस आज के बाद मुझ पर भरोसा कीजिएगा।",
+      "reference": {
+        "en-US": "There's no need to apologize, Mom. Just trust me from now on."
+      }
+    },
+    {
+      "speaker": "Vikram",
+      "emotion": "sad",
+      "text": "मैं सब ठीक कर दूँगा। एक हफ़्ते में कागज़ वापस आ जाएँगे।",
+      "reference": {
+        "en-US": "I'll fix everything. The papers will be back within a week."
+      }
+    },
+    {
+      "speaker": "Savitri",
+      "emotion": "firm",
+      "text": "एक हफ़्ता नहीं, कल सुबह तक। वरना इस घर के दरवाज़े तुम्हारे लिए बंद।",
+      "reference": {
+        "en-US": "Not a week. By tomorrow morning. Or don't bother coming home."
+      }
+    },
+    {
+      "speaker": "Arjun",
+      "emotion": "whisper",
+      "text": "मीरा, तुम्हें दो बजे वाली बात कैसे पता चली?",
+      "reference": {
+        "en-US": "Meera, how did you know about 2 a.m.?"
+      }
+    },
+    {
+      "speaker": "Meera",
+      "emotion": "mysterious",
+      "text": "क्योंकि उस रात मैं भी जाग रही थी… और मैंने सिर्फ़ विक्रम भैया को नहीं देखा था।",
+      "reference": {
+        "en-US": "Because I was awake that night too... and Vikram wasn't the only one I saw."
+      }
+    }
+  ]
+}

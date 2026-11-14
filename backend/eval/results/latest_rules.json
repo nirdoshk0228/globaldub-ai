@@ -1,0 +1,179 @@
+{
+  "generated_at": 1794609960,
+  "mode": "rules",
+  "results": [
+    {
+      "lang": "en-US",
+      "judge": false,
+      "llm": "gemini",
+      "judge_models": {},
+      "timings": "voiced",
+      "clean_lines": 27,
+      "false_positive_lines": 1,
+      "false_positive_rate": 0.037,
+      "planted_total": 125,
+      "detected_total": 117,
+      "recall_total": 0.936,
+      "recall_excluding_semantic": 0.983,
+      "by_type": {
+        "omission_full": {
+          "planted": 26,
+          "detected": 26,
+          "diagnosed": 26,
+          "recall": 1.0
+        },
+        "omission_partial": {
+          "planted": 26,
+          "detected": 24,
+          "diagnosed": 24,
+          "recall": 0.923
+        },
+        "name_swap": {
+          "planted": 8,
+          "detected": 8,
+          "diagnosed": 8,
+          "recall": 1.0
+        },
+        "number_change": {
+          "planted": 5,
+          "detected": 5,
+          "diagnosed": 5,
+          "recall": 1.0
+        },
+        "untranslated": {
+          "planted": 26,
+          "detected": 26,
+          "diagnosed": 26,
+          "recall": 1.0
+        },
+        "literal_idiom": {
+          "planted": 2,
+          "detected": 2,
+          "diagnosed": 2,
+          "recall": 1.0
+        },
+        "duration_bloat": {
+          "planted": 26,
+          "detected": 26,
+          "diagnosed": 26,
+          "recall": 1.0
+        },
+        "meaning_flip": {
+          "planted": 6,
+          "detected": 0,
+          "diagnosed": 0,
+          "recall": 0.0
+        }
+      },
+      "misses": [
+        {
+          "line": "s006",
+          "type": "omission_partial",
+          "text": "Of course you'll take your wife's side."
+        },
+        {
+          "line": "s010",
+          "type": "omission_partial",
+          "text": "Vikram, when"
+        },
+        {
+          "line": "s002",
+          "type": "meaning_flip",
+          "text": "Mom, I know exactly... I haven't even touched the safe."
+        },
+        {
+          "line": "s014",
+          "type": "meaning_flip",
+          "text": "But the bank locker was opened last month, Vikram."
+        },
+        {
+          "line": "s021",
+          "type": "meaning_flip",
+          "text": "You kept Mom's trust and let Meera take the blame!"
+        },
+        {
+          "line": "s023",
+          "type": "meaning_flip",
+          "text": "There's every need to apologize, Mom. Just trust me from now on."
+        },
+        {
+          "line": "s025",
+          "type": "meaning_flip",
+          "text": "Take a week. By tomorrow morning. Or don't bother coming home."
+        },
+        {
+          "line": "s027",
+          "type": "meaning_flip",
+          "text": "Because I was awake that night too... and Vikram was the only one I saw."
+        }
+      ],
+      "timestamp": 1794609960
+    },
+    {
+      "lang": "ta-IN",
+      "judge": false,
+      "llm": "gemini",
+      "judge_models": {},
+      "timings": "voiced",
+      "clean_lines": 27,
+      "false_positive_lines": 0,
+      "false_positive_rate": 0.0,
+      "planted_total": 122,
+      "detected_total": 122,
+      "recall_total": 1.0,
+      "recall_excluding_semantic": 1.0,
+      "by_type": {
+        "omission_full": {
+          "planted": 27,
+          "detected": 27,
+          "diagnosed": 27,
+          "recall": 1.0
+        },
+        "omission_partial": {
+          "planted": 25,
+          "detected": 25,
+          "diagnosed": 25,
+          "recall": 1.0
+        },
+        "name_swap": {
+          "planted": 8,
+          "detected": 8,
+          "diagnosed": 8,
+          "recall": 1.0
+        },
+        "number_change": {
+          "planted": 5,
+          "detected": 5,
+          "diagnosed": 5,
+          "recall": 1.0
+        },
+        "untranslated": {
+          "planted": 27,
+          "detected": 27,
+          "diagnosed": 27,
+          "recall": 1.0
+        },
+        "literal_idiom": {
+          "planted": 3,
+          "detected": 3,
+          "diagnosed": 3,
+          "recall": 1.0
+        },
+        "duration_bloat": {
+          "planted": 27,
+          "detected": 27,
+          "diagnosed": 27,
+          "recall": 1.0
+        },
+        "meaning_flip": {
+          "planted": 0,
+          "detected": 0,
+          "diagnosed": 0,
+          "recall": null
+        }
+      },
+      "misses": [],
+      "timestamp": 1794609960
+    }
+  ]
+}

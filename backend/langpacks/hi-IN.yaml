@@ -1,0 +1,45 @@
+# Source language pack (used for parsing source numbers and idioms)
+code: hi-IN
+name: Hindi
+native_name: हिन्दी
+market: india
+script: Devanagari
+script_ranges: ["0900-097F"]
+direction: ltr
+chars_per_second: 7.5   # measured from 54 voiced lines
+asr_code: hi
+numbers:
+  एक: 1
+  दो: 2
+  तीन: 3
+  चार: 4
+  पाँच: 5
+  पांच: 5
+  छह: 6
+  छः: 6
+  सात: 7
+  आठ: 8
+  नौ: 9
+  दस: 10
+  ग्यारह: 11
+  बारह: 12
+  पंद्रह: 15
+  बीस: 20
+  पच्चीस: 25
+  तीस: 30
+  चालीस: 40
+  पचास: 50
+  साठ: 60
+  सत्तर: 70
+  अस्सी: 80
+  नब्बे: 90
+  सौ: 100
+  हज़ार: 1000
+  हजार: 1000
+  लाख: 100000
+  करोड़: 10000000
+  करोड: 10000000
+voices:
+  edge:
+    - {id: hi-IN-SwaraNeural, gender: female, age: adult}
+    - {id: hi-IN-MadhurNeural, gender: male, age: adult}
