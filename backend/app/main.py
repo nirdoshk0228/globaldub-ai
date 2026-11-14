@@ -43,12 +43,6 @@ async def lifespan(_app: FastAPI):
 
 app = FastAPI(title="GlobalDub AI", version="1.0.0", lifespan=lifespan,
               description="Agentic multilingual dubbing + localization QA for Indian audio drama.")
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=list(app_settings().cors_origins),
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
 
 
 @app.middleware("http")
@@ -64,6 +58,15 @@ async def request_log(request: Request, call_next):
     if not request.url.path.startswith("/files"):
         log.info("rid=%s %s %s %s %.0fms", rid, request.method, request.url.path, resp.status_code, (time.time() - t0) * 1000)
     return resp
+
+
+# added last so it is the outermost layer: even 500 responses carry CORS headers and the browser can show them
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=list(app_settings().cors_origins),
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 # ------------------------------------------------------------------ helpers
@@ -249,7 +252,11 @@ async def create_job(
             secs = _probe_seconds(tmp)
             if not admin and secs > a.max_audio_seconds:
                 raise HTTPException(400, f"Audio is {secs:.0f}s; the public demo accepts up to {a.max_audio_seconds}s.")
-            key = get_storage().put_file(tmp, f"episodes/{job_id}/upload{suffix}")
+            try:
+                key = get_storage().put_file(tmp, f"episodes/{job_id}/upload{suffix}")
+            except Exception as e:
+                log.exception("storage upload failed")
+                raise HTTPException(502, f"Could not save the file to storage ({type(e).__name__}). Check the S3_* settings.")
             ep = episode_from_audio(key, langs, title or Path(file.filename or "episode").stem, source_lang, ep_id=job_id)
         if bed_tmp is not None:
             ep.bed_upload_key = get_storage().put_file(bed_tmp, f"episodes/{job_id}/bed_upload{bed_suffix}")

@@ -1,4 +1,4 @@
-﻿"""Object storage. Local disk for development, any S3-compatible bucket (Cloudflare R2) in production."""
+"""Object storage. Local disk for development, any S3-compatible bucket (Cloudflare R2) in production."""
 from __future__ import annotations
 
 import mimetypes
@@ -52,7 +52,7 @@ class LocalStorage(Storage):
 
 
 class S3Storage(Storage):
-    """Cloudflare R2 / AWS S3 / MinIO. Files stay private; the browser gets short-lived signed URLs."""
+    """Neon Object Storage / Cloudflare R2 / AWS S3 / MinIO. Files stay private; the browser gets short-lived signed URLs."""
 
     def __init__(self, bucket: str, endpoint: str, key_id: str, secret: str, region: str = "auto", url_ttl: int = 3600):
         import boto3
@@ -66,7 +66,15 @@ class S3Storage(Storage):
             aws_access_key_id=key_id,
             aws_secret_access_key=secret,
             region_name=region,
-            config=Config(signature_version="s3v4", s3={"addressing_style": "path"}),
+            # path-style + SigV4 works for Neon Object Storage, Cloudflare R2, Supabase and MinIO alike.
+            # boto3 >= 1.36 adds CRC32 checksum trailers to every upload by default; many S3-compatible
+            # stores reject them with SignatureDoesNotMatch, so only send checksums when an API requires one.
+            config=Config(
+                signature_version="s3v4",
+                s3={"addressing_style": "path", "payload_signing_enabled": True},   # plain SigV4 with a signed body
+                request_checksum_calculation="when_required",
+                response_checksum_validation="when_required",
+            ),
         )
 
     def put_file(self, local: Path, key: str) -> str:

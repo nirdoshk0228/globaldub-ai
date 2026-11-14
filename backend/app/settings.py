@@ -10,6 +10,8 @@ from globaldub.config import BACKEND_ROOT
 def _e(k: str, d: str = "") -> str:
     """Empty or comment-only values ("KEY=" or "KEY=  # note") mean "use the default"."""
     v = os.getenv(k, "").strip()
+    if len(v) >= 2 and v[0] == v[-1] and v[0] in "\"'":   # KEY="value" pasted with its quotes
+        v = v[1:-1].strip()
     return d if not v or v.startswith("#") else v
 
 

@@ -26,6 +26,8 @@ except Exception:
 def _env(key: str, default: str = "") -> str:
     """Empty or comment-only values ("KEY=" or "KEY=  # note") mean "use the default"."""
     v = os.getenv(key, "").strip()
+    if len(v) >= 2 and v[0] == v[-1] and v[0] in "\"'":   # KEY="value" pasted with its quotes
+        v = v[1:-1].strip()
     return default if not v or v.startswith("#") else v
 
 
