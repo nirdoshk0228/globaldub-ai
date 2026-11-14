@@ -1,4 +1,4 @@
-"""Object storage. Local disk for development, any S3-compatible bucket (Cloudflare R2) in production."""
+﻿"""Object storage. Local disk for development, any S3-compatible bucket (Cloudflare R2) in production."""
 from __future__ import annotations
 
 import mimetypes
@@ -66,7 +66,7 @@ class S3Storage(Storage):
             aws_access_key_id=key_id,
             aws_secret_access_key=secret,
             region_name=region,
-            config=Config(signature_version="s3v4"),
+            config=Config(signature_version="s3v4", s3={"addressing_style": "path"}),
         )
 
     def put_file(self, local: Path, key: str) -> str:

@@ -16,4 +16,4 @@ USER app
 ENV PORT=8000
 EXPOSE 8000
 HEALTHCHECK --interval=30s --timeout=5s CMD python -c "import urllib.request,os;urllib.request.urlopen(f'http://127.0.0.1:{os.environ.get(\"PORT\",\"8000\")}/api/health')"
-CMD ["./start.sh"]
+CMD ["sh", "./start.sh"]
