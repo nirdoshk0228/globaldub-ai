@@ -1,0 +1,38 @@
+{
+  "title": "Pehli Naukri - 60-second test",
+  "source_lang": "hi-IN",
+  "synopsis": "Original one-minute scene written for testing GlobalDub. Riya gets a big job offer in Mumbai, but her brother Kabir has been hiding that their father's shop is in debt. Cliffhanger: the bank arrives early.",
+  "characters": [
+    {"name": "Riya", "source_aliases": ["रिया"], "gender": "female", "age": "young", "persona": "Bright, determined younger sister who has just landed her first job."},
+    {"name": "Kabir", "source_aliases": ["कबीर"], "gender": "male", "age": "adult", "persona": "Protective elder brother quietly carrying the family's money worries."},
+    {"name": "Dadi", "source_aliases": ["दादी"], "gender": "female", "age": "senior", "persona": "Warm grandmother, sharp when it matters."}
+  ],
+  "glossary": [
+    {"source": "भैया", "target": {"ta-IN": "அண்ணா", "te-IN": "అన్నయ్య", "bn-IN": "দাদা", "mr-IN": "दादा"}, "note": "Elder brother; in Western languages use his name"},
+    {"source": "दादी", "target": {"en-US": "Grandma", "pt-BR": "vovó", "es-MX": "abuela"}, "note": "Paternal grandmother"}
+  ],
+  "lines": [
+    {"speaker": "Riya", "emotion": "happy", "text": "भैया! मुझे मुंबई वाली नौकरी मिल गई, पूरे बारह लाख का पैकेज!",
+     "reference": {"en-US": "Kabir! I got the Mumbai job, a full 1.2 million rupee package!"}},
+    {"speaker": "Kabir", "emotion": "shocked", "text": "सच में? अरे वाह, तूने तो कमाल कर दिया!",
+     "reference": {"en-US": "Seriously? Wow, you totally nailed it!"}},
+    {"speaker": "Dadi", "emotion": "tender", "text": "मेरी बच्ची... आज तो घर में घी के दीये जलाने चाहिए।",
+     "reference": {"en-US": "My girl... today calls for a real celebration."}},
+    {"speaker": "Kabir", "emotion": "worried", "text": "रिया... तुझे एक बात बतानी थी।",
+     "reference": {"en-US": "Riya... there's something I need to tell you."}},
+    {"speaker": "Riya", "emotion": "suspicious", "text": "क्या हुआ भैया? आप इतने परेशान क्यों हो?",
+     "reference": {"en-US": "What's wrong, Kabir? Why do you look so worried?"}},
+    {"speaker": "Kabir", "emotion": "sad", "text": "पापा की दुकान पर दो लाख का कर्ज़ है। बैंक ने सात दिन दिए हैं।",
+     "reference": {"en-US": "Dad's shop owes 200,000 rupees. The bank gave us seven days."}},
+    {"speaker": "Dadi", "emotion": "shocked", "text": "हे भगवान! तुमने ये बात हमसे छुपाई?",
+     "reference": {"en-US": "Oh my God! You hid this from us?"}},
+    {"speaker": "Kabir", "emotion": "nervous", "text": "मैं नहीं चाहता था कि रिया अपना सपना छोड़ दे।",
+     "reference": {"en-US": "I didn't want Riya to give up her dream."}},
+    {"speaker": "Riya", "emotion": "firm", "text": "सपना कहीं नहीं जाएगा। परिवार पहले है, भैया।",
+     "reference": {"en-US": "My dream isn't going anywhere. Family comes first, Kabir."}},
+    {"speaker": "Dadi", "emotion": "whisper", "text": "कबीर... बैंक वाला आदमी दरवाज़े पर खड़ा है।",
+     "reference": {"en-US": "Kabir... the man from the bank is at the door."}},
+    {"speaker": "Kabir", "emotion": "shocked", "text": "अभी? पर उन्होंने तो सात दिन कहा था...",
+     "reference": {"en-US": "Now? But they said seven days..."}}
+  ]
+}
